@@ -1,0 +1,160 @@
+body{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+    color: black; 
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #E2E2E2;
+}
+
+.header{
+    margin-left:0rem ;
+    height:3rem;
+    background-color: #CC0000;
+    display: flex;
+}
+
+.logo-img{
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: 2rem;
+
+}
+
+.zone-selector{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    background-color: none;
+    border: none;
+}
+
+.zone{
+    font-size: medium;
+    border: 0rem;
+    }
+
+.post-property{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left:45rem;
+    height: 1.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.6rem;
+    background-color: white;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.free{
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 3rem ;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+.material-icons{
+    margin-left: 0.2rem;
+    margin-bottom:1rem ;
+    
+}
+
+.bhk-selector{
+    background-color: white;
+    border-bottom: 0.1rem solid gray;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.3rem;
+}
+
+.option{
+    border: 0.1rem solid gray;
+    border-radius: 0.5rem;
+    height:1.3rem;
+    width: 8rem;
+    font-size: small;
+    display: flex;
+    padding-top: 0.25rem;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ghur{
+    height: 10rem;
+    width: 30rem;
+    border: 0.2rem solid gray;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    display: flex;
+    padding: 0rem;
+}
+
+.ghur-photo{
+    height: 10rem;
+    width: 10rem;
+}
+
+.name{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    height:5rem;
+    width: 5rem;
+    padding-left: 0.2rem;
+}
+
+.price{
+    margin-top: 2rem;
+    height:5rem;
+    width: 5rem;
+    padding-left: 0.2rem;
+}
+
+.location{
+    margin-top: 2rem;
+    height:5rem;
+    width: 5rem;
+    padding-left: 0.2rem;
+}
+
+.bhk{
+    margin-top: 2rem;
+    height:5rem;
+    width: 2rem;
+    padding-left: 0.2rem;
+}
+
+.sold{
+   
+    margin-top: 8rem;
+}
+
+
+.form{
+    display:none;
+    top:20rem;
+    padding-left: 2rem;
+    background-color: azure;
+    position: absolute;
+    height: 8rem;
+    width: 20rem;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 2px 2px;
+}
+
+
