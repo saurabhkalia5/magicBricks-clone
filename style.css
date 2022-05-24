@@ -24,8 +24,8 @@ body{
 }
 
 .zone-selector{
-    margin-left: 3rem;
-    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-top: 0.8rem;
     background-color: none;
     border: none;
 }
@@ -39,7 +39,7 @@ body{
     padding-top: 0.5rem;
     display: flex;
     justify-content: space-around;
-    margin-left:45rem;
+    margin-left:11rem;
     height: 1.8rem;
     margin-top: 0.3rem;
     margin-bottom: 0.6rem;
@@ -73,7 +73,7 @@ body{
     height: 2rem;
     display: flex;
     justify-content: space-around;
-    padding-top: 0.3rem;
+    padding-top: 0.6rem;
 }
 
 .option{
@@ -157,4 +157,31 @@ body{
     box-shadow: 2px 2px;
 }
 
+.priority-set{
+    margin-left: 30rem;
+    background-color: white;
+    height: 1.8rem;
+    width: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
 
+.descending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.3rem;
+    width: 2.5rem;
+}
+
+.ascending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.3rem;
+    border-right: 0.1rem solid black;
+    width: 2.5rem;
+}
