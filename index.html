@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="magicBricks-clone/style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>MAGIC BRICKS CLONE</title>
 </head>
@@ -19,12 +20,22 @@
                 <option value="  Mumbai">Mumbai</option>
                 <option value=" Banglore">Banglore</option>
                 <option value=" Chennai">Chennai</option>
+                <option value="All">All</option>
               </select>
+        </div>
+
+        <div class="priority-set">
+            <div class="ascending">
+                <i class="fa fa-angle-up"></i>
+            </div>
+            <div class="descending">
+                <i class="fa fa-angle-down"></i>
+            </div>
         </div>
         <div class="post-property">
             <i class="material-icons home">home</i>
             POST PROPERTY
-            <div class="free">FREE</div>
+            <div class="free">Free</div>
         </div>
     </div>
     <div class="bhk-selector">
@@ -51,7 +62,7 @@
                 <option value="Banglore">Banglore</option>
                 <option value="Chennai">Chennai</option>
                     </select></br>
-                Price in CR :  <input type="text" id="price" /></br>
+                Price in CR :  <input type="number" id="price" /></br>
                 <input type="button" value="submit" onclick="createHouse()" />
             </form>
         </div>
@@ -59,4 +70,6 @@
     </div>
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+<script src="/script.js"></script>
 </html>
