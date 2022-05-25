@@ -61,7 +61,7 @@ function createHouse(id,roomCount , nameCount , locationCount , priceCount){
     let ghurTKT = document.createElement("div");
     ghurTKT.setAttribute("class" , "ghur");
     ghurTKT.setAttribute("id", houseId);
-    ghurTKT.innerHTML = `  <img src="/antila.jpg" class="ghur-photo">
+    ghurTKT.innerHTML = `  <img src="./antila.jpg" class="ghur-photo">
     <div class="name">
         <h15>NAME</h15>
         <h4>${houseName}</h4>
